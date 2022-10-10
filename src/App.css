@@ -1,0 +1,23 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+	position: relative;
+	background: white;
+	border: 1px solid black;
+	padding: 2rem;
+	margin: 1rem auto;
+	border-radius: 0.5rem;
+	max-width: max-content;
+}
+.step-number {
+	position: absolute;
+	top: 0.5rem;
+	right: 0.5rem;
+}
+.buttons {
+	margin-top: 1rem;
+	display: flex;
+	gap: 0.5rem;
+	justify-content: flex-end;
+}
